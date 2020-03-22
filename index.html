@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>YT 2 MP3</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-dark text-center">
+        <h1 class="display-4"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+            To <i class="fas fa-music"></i></h1>
+        <p class="lead">Made by Kninja28</p>
+        (BETA v1.0)
+    </div>
+    <br>
+    <div class="text-center p-3 m-2">
+        <b>Enter YouTube Link:</b> <input class="" id="video_id" type="text"> <br> <br>
+        (Step 1) <br> <br>
+        <input class="btn btn-danger" type="button" value="Fetch & Convert" onclick="download()"> <br> <br>
+        <img class="img img-thumbnail" src="" id="thumb" alt=""> <br> <br>
+        <a id="download_link" href=""><input class="btn btn-primary" type="button" value="Download"></a> <br> <br>
+        (Step 2: Once thumbnail is loaded)
+    </div>
+    
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="mp3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
